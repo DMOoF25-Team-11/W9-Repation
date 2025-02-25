@@ -1,4 +1,5 @@
-﻿using System.Numerics;
+﻿using System;
+using System.Numerics;
 
 namespace repetition
 {
@@ -305,28 +306,47 @@ namespace repetition
             Console.WriteLine(Math.PI * Math.Pow(Radius, 2));
         }
 
+
+
+        //Forstår ikke overload
         private static void opgave21()
         {
-            Console.WriteLine("Indtast højden på cylinderen");
-            int A = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Indtast højden på cylinderen");
+            //int A = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Indtast radius af cylinderen");
-            int Radius = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Indtast radius af cylinderen");
+            //int Radius = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(Math.PI * Math.Pow(Radius, 2) * A);
+            //Console.WriteLine(Math.PI * Math.Pow(Radius, 2) * A);
 
-            Console.WriteLine("Indtast sidelængden på B af kuben");
-            int B = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Indtast sidelængden på B af kuben");
+            //int B = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Indtast sidelængden på C af kuben");
-            int C = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Indtast sidelængden på C af kuben");
+            //int C = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Indtast sidelængden på D af kuben");
-            int D = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Indtast sidelængden på D af kuben");
+            //int D = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Kuben har rumfang " + (B * C * D));
+            //Console.WriteLine("Kuben har rumfang " + (B * C * D));
+
+            double total = Multiply(2, 3);
+
+            static double Multiply(double A, double Radius)
+            {
+                return Math.PI * Math.Pow(Radius, 2) * A;
+            }
+
+            static double Multiply(double B, double C, double D)
+            {
+                return (B * C * D);
+            }
+
+            Console.WriteLine(total);
         }
 
+
+        //Forstår ikke overload
         private static void opgave22()
         {
             int total = Multiply(Convert.ToInt32(Console.ReadLine()), Convert.ToInt32(Console.ReadLine()), Convert.ToInt32(Console.ReadLine()));
