@@ -275,8 +275,73 @@
         }
 
         private static void opgave19()
-        { 
+        {
+            {
+                Console.WriteLine(CountVokals("Hello, World!"));
+            }
 
+            static int CountVokals(string input)
+            {
+                var vokals = new HashSet<char> { 'a', 'e', 'i', 'o', 'u', 'æ', 'ø', 'å' };
+                return input.Count(c => vokals.Contains(char.ToLower(c)));
+            }
+        }
+
+        private static void opgave20()
+        {
+            Console.WriteLine("Indtast sidelængden på A");
+            int A = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Indtast sidelængden på B");
+            int B = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(A * B);
+
+            Console.WriteLine("Indtast radius");
+            int Radius = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(Math.PI * Math.Pow(Radius, 2));
+        }
+
+        private static void opgave21()
+        {
+            Console.WriteLine("Indtast højden på cylinderen");
+            int A = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Indtast radius af cylinderen");
+            int Radius = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(Math.PI * Math.Pow(Radius, 2) * A);
+
+            Console.WriteLine("Indtast sidelængden på B af kuben");
+            int B = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Indtast sidelængden på C af kuben");
+            int C = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Indtast sidelængden på D af kuben");
+            int D = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Kuben har rumfang " + (B * C * D));
+        }
+
+        private static void opgave22()
+        {
+            Console.WriteLine("Indtast højden på trekanten");
+            int A = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Indtast siden af trekanten");
+            int B = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(A * B/2);
+
+            Console.WriteLine("Indtast sidelængden på B af kuben");
+            int A = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Indtast sidelængden på C af kuben");
+            int B = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("rektangel er " + A * B);
         }
 
         static void Main(string[] args)
@@ -302,6 +367,10 @@
             opgave16();
             opgave17();
             opgave18();
+            opgave19();
+            opgave20();
+            opgave21();
+            opgave22();
         }
 
         private static bool MainMenu()
@@ -322,11 +391,11 @@
             Console.WriteLine("14) opgave16");
             Console.WriteLine("15) opgave17");
             Console.WriteLine("16) opgave18");
-            Console.WriteLine("17) opgave15");
-            Console.WriteLine("18) opgave15");
-            Console.WriteLine("19) opgave15");
-            Console.WriteLine("20) opgave15");
-            Console.WriteLine("21) opgave16");
+            Console.WriteLine("17) opgave19");
+            Console.WriteLine("18) opgave20");
+            Console.WriteLine("19) opgave21");
+            Console.WriteLine("20) opgave22");
+
             Console.WriteLine("22) Exit");
             Console.Write("\r\nSelect an option: ");
 
@@ -381,6 +450,18 @@
                     opgave18();
                     return true;
                 case "17":
+                    opgave19();
+                    return true;
+                case "18":
+                    opgave20();
+                    return true;
+                case "19":
+                    opgave21();
+                    return true;
+                case "20":
+                    opgave22();
+                    return true;
+                case "21":
                     return false;
                 default:
                     return true;
