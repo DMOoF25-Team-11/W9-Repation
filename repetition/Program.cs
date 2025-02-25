@@ -15,11 +15,11 @@
         private static void temperature()
         {
             Console.WriteLine("Input Celsius");
-            double Fahrenheit = Double.Parse(Console.ReadLine()) * (9 / 5) + 32;
+            double Fahrenheit = Double.Parse(Console.ReadLine()) * (9f / 5f) + 32;
             Console.WriteLine("The temperature in Fahrenheit is: " + Fahrenheit);
 
             Console.WriteLine("Input Fahrenheit");
-            double Celsius = Convert.ToInt32((Console.Read()) - 32 * (5 / 9));
+            double Celsius = Convert.ToInt32((Console.Read()) - 32 * (5f / 9f));
             Console.WriteLine("The temperature in Celsius is: " + Celsius);
         }
 
