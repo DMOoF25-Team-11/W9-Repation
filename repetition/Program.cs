@@ -1,4 +1,6 @@
-﻿namespace repetition
+﻿using System.Numerics;
+
+namespace repetition
 {
     internal class Program
     {
@@ -327,21 +329,19 @@
 
         private static void opgave22()
         {
-            Console.WriteLine("Indtast højden på trekanten");
-            int A = Convert.ToInt32(Console.ReadLine());
+            int total = Multiply(Convert.ToInt32(Console.ReadLine()), Convert.ToInt32(Console.ReadLine()), Convert.ToInt32(Console.ReadLine()));
 
-            Console.WriteLine("Indtast siden af trekanten");
-            int B = Convert.ToInt32(Console.ReadLine());
+            static int Multiply(int A, int B, int C)
+            {
+                return A * B / C;
+            }
 
-            Console.WriteLine(A * B/2);
+            static int Multiply(int A, int B)
+            {
+                return A * B;
+            }
 
-            Console.WriteLine("Indtast sidelængden på B af kuben");
-            int A = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Indtast sidelængden på C af kuben");
-            int B = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("rektangel er " + A * B);
+            Console.WriteLine(total);
         }
 
         static void Main(string[] args)
