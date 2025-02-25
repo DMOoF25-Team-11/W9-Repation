@@ -1,0 +1,14 @@
+C:\Users\sabin\OneDrive\Projekter\Repetitionsøvelser 1\Rep.Oevelser\opgave5\obj\Debug\net8.0\opgave5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabin\OneDrive\Projekter\Repetitionsøvelser 1\Rep.Oevelser\opgave5\obj\Debug\net8.0\opgave5.AssemblyInfoInputs.cache
+C:\Users\sabin\OneDrive\Projekter\Repetitionsøvelser 1\Rep.Oevelser\opgave5\obj\Debug\net8.0\opgave5.AssemblyInfo.cs
+C:\Users\sabin\OneDrive\Projekter\Repetitionsøvelser 1\Rep.Oevelser\opgave5\obj\Debug\net8.0\opgave5.csproj.CoreCompileInputs.cache
+C:\Users\sabin\OneDrive\Projekter\Repetitionsøvelser 1\Rep.Oevelser\opgave5\bin\Debug\net8.0\opgave5.exe
+C:\Users\sabin\OneDrive\Projekter\Repetitionsøvelser 1\Rep.Oevelser\opgave5\bin\Debug\net8.0\opgave5.deps.json
+C:\Users\sabin\OneDrive\Projekter\Repetitionsøvelser 1\Rep.Oevelser\opgave5\bin\Debug\net8.0\opgave5.runtimeconfig.json
+C:\Users\sabin\OneDrive\Projekter\Repetitionsøvelser 1\Rep.Oevelser\opgave5\bin\Debug\net8.0\opgave5.dll
+C:\Users\sabin\OneDrive\Projekter\Repetitionsøvelser 1\Rep.Oevelser\opgave5\bin\Debug\net8.0\opgave5.pdb
+C:\Users\sabin\OneDrive\Projekter\Repetitionsøvelser 1\Rep.Oevelser\opgave5\obj\Debug\net8.0\opgave5.dll
+C:\Users\sabin\OneDrive\Projekter\Repetitionsøvelser 1\Rep.Oevelser\opgave5\obj\Debug\net8.0\refint\opgave5.dll
+C:\Users\sabin\OneDrive\Projekter\Repetitionsøvelser 1\Rep.Oevelser\opgave5\obj\Debug\net8.0\opgave5.pdb
+C:\Users\sabin\OneDrive\Projekter\Repetitionsøvelser 1\Rep.Oevelser\opgave5\obj\Debug\net8.0\opgave5.genruntimeconfig.cache
+C:\Users\sabin\OneDrive\Projekter\Repetitionsøvelser 1\Rep.Oevelser\opgave5\obj\Debug\net8.0\ref\opgave5.dll
