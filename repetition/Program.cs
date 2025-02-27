@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Numerics;
+using System.Runtime.CompilerServices;
 
 namespace repetition
 {
@@ -330,7 +331,9 @@ namespace repetition
 
             //Console.WriteLine("Kuben har rumfang " + (B * C * D));
 
-            double total = Multiply(2, 3);
+
+            //This doesn't work aslong as it's inside the method opgave21, if you place everything outside of this method it works just fine.
+            double total = Multiply(2, 3, 5);
 
             static double Multiply(double A, double Radius)
             {
@@ -339,13 +342,13 @@ namespace repetition
 
             static double Multiply(double B, double C, double D)
             {
-                return (B * C * D);
+                return B * C * D;
             }
 
             Console.WriteLine(total);
         }
 
-
+        //This doesn't work aslong as it's inside the method opgave22, if you place everything outside of this method it works just fine.
         //Forstår ikke overload
         private static void opgave22()
         {
